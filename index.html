@@ -68,14 +68,15 @@ src="https://www.facebook.com/tr?id=4637383239875785&ev=PageView&noscript=1"
 <a href="#business">Для бизнеса</a>
 </nav>
 <div class="header-actions">
-<a class="phone-link" href="tel:+998900000000" data-event="phone_click">
+<a class="phone-link" href="tel:+998977561133" data-event="phone_click">
 <span class="round-icon">
 <svg viewBox="0 0 24 24" aria-hidden="true">
 <path d="M7.2 3.5 10 8.1 8.4 9.8c1.1 2.3 3 4.2 5.3 5.3l1.7-1.6 4.6 2.8c.4.3.6.8.4 1.3-.5 1.3-1.8 2.7-3.3 2.9C10.4 21.2 2.8 13.6 3.5 6.9c.2-1.5 1.6-2.8 2.9-3.3.3-.2.6-.2.8-.1Z">
 </path>
 </svg>
-</span>+998 90 000 00 00</a>
+</span>+998 97 756 11 33</a>
 <a class="button button-outline button-small" href="#contact">Связаться</a>
+<button type="button" class="button button-outline button-small lang-toggle-btn" onclick="toggleSiteLang()" aria-label="Tilni almashtirish" style="min-width:52px;padding:0 16px;">UZ</button>
 </div>
 </header>
 <section class="hero" id="top">
@@ -87,7 +88,7 @@ src="https://www.facebook.com/tr?id=4637383239875785&ev=PageView&noscript=1"
 <p class="hero-lead">Задачи, фотоотчёты, инвентаризация, заявки на ремонт, зарплата, штрафы и поощрения, инструкции и аналитика — в одном Telegram-приложении без разбросанных чатов.</p>
 <div class="hero-buttons">
 <a class="button button-primary" href="#contact" data-event="demo_click">Заказать бесплатную демо версию</a>
-<a class="button button-outline" href="tel:+998900000000" data-event="phone_click">
+<a class="button button-outline" href="tel:+998977561133" data-event="phone_click">
 <svg viewBox="0 0 24 24" aria-hidden="true">
 <path d="M7.2 3.5 10 8.1 8.4 9.8c1.1 2.3 3 4.2 5.3 5.3l1.7-1.6 4.6 2.8c.4.3.6.8.4 1.3-.5 1.3-1.8 2.7-3.3 2.9C10.4 21.2 2.8 13.6 3.5 6.9c.2-1.5 1.6-2.8 2.9-3.3.3-.2.6-.2.8-.1Z">
 </path>
@@ -567,7 +568,8 @@ src="https://www.facebook.com/tr?id=4637383239875785&ev=PageView&noscript=1"
 </div>
 <div>
 <b>Связаться</b>
-<a href="tel:+998900000000">+998 90 000 00 00</a>
+<a href="tel:+998977561133">+998 97 756 11 33</a>
+<a href="tel:+998904822149">+998 90 482 21 49</a>
 <a href="#contact">Telegram</a>
 </div>
 <div>
@@ -575,7 +577,7 @@ src="https://www.facebook.com/tr?id=4637383239875785&ev=PageView&noscript=1"
 <a href="#features">Возможности</a>
 <a href="#contact">Политика конфиденциальности</a>
 </div>
-<p class="copyright">© 2026 Inspekt.uz. Все права защищены.</p>
+<p class="copyright">© 2026 Inspekt.uz. Все права защищены. <button type="button" class="lang-toggle-btn" onclick="toggleSiteLang()" aria-label="Tilni almashtirish" style="background:none;border:none;color:inherit;text-decoration:underline;cursor:pointer;font:inherit;padding:0;margin-left:10px;">UZ</button></p>
 </footer>
 </main>
 <!--$-->
@@ -632,6 +634,268 @@ src="https://www.facebook.com/tr?id=4637383239875785&ev=PageView&noscript=1"
     wrap.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/cSNu4eTRmTQ?autoplay=1&rel=0&modestbranding=1" title="Видео инструкция Inspekt.uz" style="width:100%;height:100%;border:0;display:block" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
     btn.replaceWith(wrap);
   });
+})();
+</script>
+
+<script>
+(function(){
+  var RU_UZ_DICT = {
+"Возможности": "Imkoniyatlar",
+"Как работает": "Qanday ishlaydi",
+"Для бизнеса": "Biznes uchun",
+"Связаться": "Bog'lanish",
+"Работает внутри Telegram": "Telegram ichida ishlaydi",
+"Контролируйте сотрудников и процессы вашего бизнеса прямо в Telegram": "Xodimlaringiz va biznes jarayonlaringizni to'g'ridan-to'g'ri Telegram orqali nazorat qiling",
+"Задачи, фотоотчёты, инвентаризация, заявки на ремонт, зарплата, штрафы и поощрения, инструкции и аналитика — в одном Telegram-приложении без разбросанных чатов.": "Vazifalar, foto-hisobotlar, inventarizatsiya, ta'mirlash arizalari, ish haqi, jarima va rag'batlar, yo'riqnomalar va tahlil — tarqoq chatlarsiz, bitta Telegram ilovasida.",
+"Заказать бесплатную демо версию": "Bepul demo versiyani buyurtma qilish",
+"Заказать звонок": "Qo'ng'iroq buyurtma qilish",
+"Без установки": "O'rnatishsiz",
+"Запуск за 1 день": "1 kunda ishga tushirish",
+"Фотоотчёт принят": "Foto-hisobot qabul qilindi",
+"Задача выполнена": "Vazifa bajarildi",
+"Проверка витрин · 15 мин назад": "Vitrinalarni tekshirish · 15 daqiqa oldin",
+"Сотрудники онлайн": "Xodimlar onlayn",
+"из 24": "jami 24 tadan",
+"Узнаёте свой рабочий день?": "Bu sizning ish kuningizga o'xshaydimi?",
+"Контроль не должен начинаться с поиска сообщений": "Nazorat xabarlarni qidirishdan boshlanmasligi kerak",
+"Задачи теряются среди сообщений": "Vazifalar xabarlar orasida yo'qolib ketadi",
+"Сотрудники забывают отправлять отчёты": "Xodimlar hisobot yuborishni unutib qo'yishadi",
+"Фото сложно найти, а ответственных — определить": "Fotolarni topish qiyin, mas'ullarni aniqlash esa undan ham qiyin",
+"Приходится постоянно напоминать и звонить": "Doimo eslatib turishga va qo'ng'iroq qilishga to'g'ri keladi",
+"Продукт за 3 минуты": "3 daqiqada mahsulot",
+"Посмотрите, как работает Inspekt.uz": "Inspekt.uz qanday ishlashini ko'ring",
+"Руководитель ставит задачу, сотрудник отправляет отчёт, а собственник видит сроки и результат — прямо в Telegram.": "Rahbar vazifa qo'yadi, xodim hisobot yuboradi, egasi esa muddat va natijani to'g'ridan-to'g'ri Telegram'da ko'radi.",
+"Как управлять бизнесом через Telegram": "Telegram orqali biznesni qanday boshqarish mumkin",
+"Демонстрация Inspekt.uz · 3 минуты": "Inspekt.uz namoyishi · 3 daqiqa",
+"Видно, кто отвечает": "Kim javobgarligi ko'rinib turadi",
+"Отчёты не теряются": "Hisobotlar yo'qolmaydi",
+"Контроль из любой точки": "Istalgan nuqtadan nazorat",
+"Хаос вместо порядка и контроля": "Tartib va nazorat o'rniga tartibsizlik",
+"Когда бизнес управляется через чаты, общая картина исчезает": "Biznes chatlar orqali boshqarilganda, umumiy manzara yo'qoladi",
+"Задачи, отчёты, инструкции и рабочие вопросы оказываются в разных переписках. Руководитель вынужден контролировать всё вручную и сам становится главным диспетчером.": "Vazifalar, hisobotlar, yo'riqnomalar va ish masalalari turli yozishmalarda tarqalib ketadi. Rahbar hamma narsani qo'lda nazorat qilishga majbur bo'ladi va o'zi bosh dispetcherga aylanadi.",
+"Посмотреть возможности": "Imkoniyatlarni ko'rish",
+"Получить бесплатную демо версию": "Bepul demo versiyani olish",
+"Забытые поручения": "Unutilgan topshiriqlar",
+"Потерянные фотоотчёты": "Yo'qolgan foto-hisobotlar",
+"Просроченные задачи": "Muddati o'tgan vazifalar",
+"Неисправности без ответственного": "Mas'ulsiz nosozliklar",
+"Десятки Telegram-чатов": "O'nlab Telegram-chatlar",
+"Вместо поездок — постоянное личное присутствие": "Tashrif buyurish o'rniga — doimiy shaxsan bo'lishga to'g'ri keladi",
+"Всё необходимое для ежедневного контроля в одном месте": "Kundalik nazorat uchun kerakli hamma narsa bir joyda",
+"Задачи": "Vazifalar",
+"Разовые и регулярные поручения для сотрудников, должностей и подразделений.": "Xodimlar, lavozimlar va bo'limlar uchun bir martalik va muntazam topshiriqlar.",
+"Ответственные и сроки": "Mas'ullar va muddatlar",
+"У каждого поручения есть исполнитель, срок и понятный статус.": "Har bir topshiriqning bajaruvchisi, muddati va aniq holati bor.",
+"Фото- и текстовые отчёты": "Foto- va matnli hisobotlar",
+"Подтверждение выполненной работы прикрепляется прямо к задаче.": "Bajarilgan ish tasdig'i to'g'ridan-to'g'ri vazifaga biriktiriladi.",
+"Контроль просрочек": "Muddati o'tishini nazorat qilish",
+"Текущие, выполненные и просроченные задачи видны в одном месте.": "Joriy, bajarilgan va muddati o'tgan vazifalar bir joyda ko'rinadi.",
+"Регулярные проверки": "Muntazam tekshiruvlar",
+"Ежедневные чек-листы и повторяющиеся проверки без напоминаний.": "Eslatmasiz kundalik cheklistlar va takrorlanuvchi tekshiruvlar.",
+"Инвентаризация": "Inventarizatsiya",
+"Остатки, недостачи и результаты проверок сохраняются в истории.": "Qoldiqlar, kamomadlar va tekshiruv natijalari tarixda saqlanadi.",
+"Заявки на ремонт": "Ta'mirlash arizalari",
+"Неисправность фиксируется, назначается ответственный и контролируется результат.": "Nosozlik qayd etiladi, mas'ul tayinlanadi va natija nazorat qilinadi.",
+"Зарплата и мотивация": "Ish haqi va rag'batlantirish",
+"Смены, часы, начисления, штрафы и поощрения в одной системе.": "Smenalar, soatlar, hisoblangan summalar, jarima va rag'batlar bitta tizimda.",
+"Инструкции": "Yo'riqnomalar",
+"Стандарты, меню, цены и рабочие документы всегда доступны сотрудникам.": "Standartlar, menyu, narxlar va ish hujjatlari xodimlarga doim ochiq.",
+"Аналитика": "Tahlil",
+"Показатели сотрудников, подразделений и отдельных точек — без ручного сбора.": "Xodimlar, bo'limlar va alohida obyektlar ko'rsatkichlari — qo'lda yig'masdan.",
+"Внедрение": "Joriy etish",
+"Запуск без сложного обучения сотрудников": "Xodimlarni murakkab o'qitmasdan ishga tushirish",
+"Мы настраиваем систему под ваши реальные процессы, а команда продолжает работать в привычном Telegram.": "Biz tizimni sizning haqiqiy jarayonlaringizga moslab sozlaymiz, jamoa esa odatdagi Telegram'da ishlashda davom etadi.",
+"Изучаем процессы": "Jarayonlarni o'rganamiz",
+"Определяем задачи, отчёты, инструкции и проверки вашего бизнеса.": "Biznesingizning vazifalari, hisobotlari, yo'riqnomalari va tekshiruvlarini aniqlaymiz.",
+"Настраиваем систему": "Tizimni sozlaymiz",
+"Добавляем точки, роли, сотрудников, чек-листы и правила работы.": "Obyektlar, rollar, xodimlar, cheklistlar va ish qoidalarini qo'shamiz.",
+"Подключаем команду": "Jamoani ulaymiz",
+"Сотрудники получают задачи и отправляют отчёты внутри Telegram.": "Xodimlar Telegram ichida vazifalar oladi va hisobot yuboradi.",
+"Вы получаете контроль": "Siz nazoratga ega bo'lasiz",
+"Видите выполнение, просрочки, недостачи и показатели работы.": "Bajarilishi, muddati o'tishi, kamomadlar va ish ko'rsatkichlarini ko'rasiz.",
+"Для кого": "Kimlar uchun",
+"Для бизнеса, который вырос из управления через рабочие чаты": "Ish chatlari orqali boshqarishdan o'sib chiqqan biznes uchun",
+"Владельцам 2–5 заведений": "2–5 ta muassasa egalariga",
+"Бизнесу после быстрого роста": "Tez o'sishdan keyingi biznesga",
+"Владельцам одного крупного объекта": "Bitta yirik obyekt egalariga",
+"Управляющим и операционным директорам": "Boshqaruvchilar va operatsion direktorlarga",
+"Рестораны": "Restoranlar",
+"Кафе": "Kafelar",
+"Кофейни": "Kofexonalar",
+"Бары": "Barlar",
+"Банные комплексы": "Hammom komplekslari",
+"Гостиницы": "Mehmonxonalar",
+"Сервисные компании": "Xizmat ko'rsatuvchi kompaniyalar",
+"Результат для собственника": "Egasi uchun natija",
+"Меньше ручного контроля. Больше прозрачности бизнеса": "Qo'lda nazorat kamroq. Biznes shaffofligi ko'proq",
+"До Inspekt.uz": "Inspekt.uz'gacha",
+"Десятки рабочих чатов": "O'nlab ish chatlari",
+"Постоянные звонки и напоминания": "Doimiy qo'ng'iroq va eslatmalar",
+"Задачи без ответственных": "Mas'ulsiz vazifalar",
+"Личное присутствие на объекте": "Obyektda shaxsan hozir bo'lish",
+"После Inspekt.uz": "Inspekt.uz'dan keyin",
+"Задачи и отчёты в одной системе": "Vazifalar va hisobotlar bitta tizimda",
+"Ответственный и срок у каждого поручения": "Har bir topshiriqda mas'ul va muddat",
+"Подтверждение выполнения": "Bajarilishi tasdig'i",
+"Сохранённая история работы": "Saqlangan ish tarixi",
+"Контроль нескольких точек удалённо": "Bir nechta obyektni masofadan nazorat qilish",
+"Реальный кейс": "Haqiqiy keys",
+"Как комплекс drova объединил работу 9 разных подразделений в одной системе": "«drova» kompleksi 9 ta turli bo'limning ishini bitta tizimda qanday birlashtirgani",
+"Задачи и отчётность терялись в переписке, а единой системы ответственности не было. Inspekt.uz объединил ежедневные процессы внутри Telegram — без установки отдельного приложения.": "Vazifalar va hisobotlar yozishmalarda yo'qolib ketardi, yagona javobgarlik tizimi esa yo'q edi. Inspekt.uz kundalik jarayonlarni Telegram ichida — alohida ilova o'rnatmasdan birlashtirdi.",
+"разных подразделений": "turli bo'lim",
+"единая система": "yagona tizim",
+"картина работы": "ish manzarasi",
+"«Теперь у каждого поручения есть ответственный, срок и подтверждение выполнения. Сотрудники продолжают работать в привычном Telegram, а руководство получает прозрачный контроль».": "«Endi har bir topshiriqning mas'uli, muddati va bajarilish tasdig'i bor. Xodimlar odatdagi Telegram'da ishlashda davom etadi, rahbariyat esa shaffof nazoratga ega bo'ladi».",
+"Директор премиального банного комплекса drova": "«drova» premium hammom kompleksi direktori",
+"Формат подключения": "Ulanish formati",
+"Настроим Inspekt.uz под процессы вашего бизнеса": "Inspekt.uz'ni biznesingiz jarayonlariga moslab sozlaymiz",
+"Не просто выдаём доступ, а переносим реальные процессы компании в готовую рабочую систему.": "Shunchaki kirish huquqi bermaymiz, balki kompaniyangizning haqiqiy jarayonlarini tayyor ish tizimiga ko'chiramiz.",
+"Обсудить внедрение": "Joriy etishni muhokama qilish",
+"Изучение процессов бизнеса": "Biznes jarayonlarini o'rganish",
+"Добавление точек и сотрудников": "Obyektlar va xodimlarni qo'shish",
+"Настройка ролей и задач": "Rollar va vazifalarni sozlash",
+"Чек-листы и регулярные проверки": "Cheklistlar va muntazam tekshiruvlar",
+"Инвентаризация и ремонтные заявки": "Inventarizatsiya va ta'mirlash arizalari",
+"Зарплата, штрафы и поощрения": "Ish haqi, jarima va rag'batlar",
+"Обучение руководителя": "Rahbarni o'qitish",
+"Сопровождение после запуска": "Ishga tushirilgandan keyin qo'llab-quvvatlash",
+"Частые вопросы": "Tez-tez so'raladigan savollar",
+"Коротко о главном": "Asosiysi haqida qisqacha",
+"Нужно ли устанавливать отдельное приложение?": "Alohida ilova o'rnatish kerakmi?",
+"Нет. Inspekt.uz работает внутри Telegram на Android и iOS.": "Yo'q. Inspekt.uz Android va iOS'da Telegram ichida ishlaydi.",
+"Сложно ли обучить сотрудников?": "Xodimlarni o'qitish qiyinmi?",
+"Нет. Для основных действий достаточно короткого обучения — команда остаётся в привычном Telegram.": "Yo'q. Asosiy amallar uchun qisqa o'qitish yetarli — jamoa odatdagi Telegram'da qoladi.",
+"Можно ли подключить несколько точек?": "Bir nechta obyektni ulash mumkinmi?",
+"Да. Руководитель контролирует сотрудников и процессы разных объектов в одной системе.": "Ha. Rahbar turli obyektlarning xodimlari va jarayonlarini bitta tizimda nazorat qiladi.",
+"Можно ли настроить разные задачи для должностей?": "Lavozimlar uchun turli vazifalarni sozlash mumkinmi?",
+"Да. Для каждой роли создаются свои задачи, инструкции, отчёты и зоны ответственности.": "Ha. Har bir rol uchun o'z vazifalari, yo'riqnomalari, hisobotlari va javobgarlik doiralari yaratiladi.",
+"Можно ли создавать регулярные задачи?": "Muntazam vazifalar yaratish mumkinmi?",
+"Да. Поддерживаются ежедневные, еженедельные и другие повторяющиеся задачи и проверки.": "Ha. Kundalik, haftalik va boshqa takrorlanuvchi vazifalar hamda tekshiruvlar qo'llab-quvvatlanadi.",
+"Можно ли доработать систему под наш бизнес?": "Tizimni bizning biznesimizga moslab qayta ishlash mumkinmi?",
+"Да. Возможности и процессы можно адаптировать под конкретную компанию.": "Ha. Imkoniyatlar va jarayonlarni aniq kompaniyaga moslashtirish mumkin.",
+"Персональная демонстрация": "Shaxsiy namoyish",
+"Посмотрите, как Inspekt.uz будет работать в вашем бизнесе": "Inspekt.uz sizning biznesingizda qanday ishlashini ko'ring",
+"Покажем систему на примере ваших задач и процессов и ответим на вопросы по внедрению.": "Tizimni sizning vazifalaringiz va jarayonlaringiz misolida ko'rsatamiz hamda joriy etish bo'yicha savollarga javob beramiz.",
+"Без обязательств и сложной подготовки": "Majburiyatlarsiz va murakkab tayyorgarliksiz",
+"Ваше имя": "Ismingiz",
+"Номер телефона": "Telefon raqami",
+"Количество сотрудников": "Xodimlar soni",
+"Выберите": "Tanlang",
+"Больше 80": "80 dan ko'p",
+"Количество точек": "Obyektlar soni",
+"Больше 10": "10 dan ko'p",
+"Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.": "Tugmani bosish orqali siz maxfiylik siyosatiga rozilik bildirasiz.",
+"Telegram Mini App для контроля сотрудников, задач и операционных процессов бизнеса.": "Xodimlar, vazifalar va biznesning operatsion jarayonlarini nazorat qilish uchun Telegram Mini App.",
+"Информация": "Ma'lumot",
+"Политика конфиденциальности": "Maxfiylik siyosati",
+"© 2026 Inspekt.uz. Все права защищены.": "© 2026 Inspekt.uz. Barcha huquqlar himoyalangan.",
+"Спасибо за обращение!": "Murojaatingiz uchun rahmat!",
+"Команда Inspekt.uz свяжется с вами в ближайшее время.": "Inspekt.uz jamoasi tez orada siz bilan bog'lanadi.",
+"Например, Александр": "Masalan, Aziz",
+"Главная навигация": "Asosiy navigatsiya",
+"Inspekt.uz — на главную": "Inspekt.uz — bosh sahifaga",
+"Интерфейс Inspekt.uz на смартфоне": "Smartfonda Inspekt.uz interfeysi",
+"Панель управления Inspekt.uz": "Inspekt.uz boshqaruv paneli",
+"Видео инструкция Inspekt.uz": "Inspekt.uz video yo'riqnomasi"
+  };
+  var keys = Object.keys(RU_UZ_DICT).sort(function(a,b){ return b.length - a.length; });
+  function escapeRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  var REGEX = keys.length ? new RegExp(keys.map(escapeRe).join('|'), 'g') : null;
+  function translate(text){
+    if (!text || !REGEX) return text;
+    return text.replace(REGEX, function(m){ return RU_UZ_DICT.hasOwnProperty(m) ? RU_UZ_DICT[m] : m; });
+  }
+  var currentLang = 'ru';
+  var origText = new WeakMap();
+  var origAttr = new WeakMap();
+  var ATTRS = ['placeholder', 'title', 'aria-label', 'alt'];
+  var SKIP_ATTR = 'data-lang-skip';
+
+  function translateTextNode(node){
+    if (!node) return;
+    if (node.parentElement && node.parentElement.closest('[' + SKIP_ATTR + ']')) return;
+    if (!origText.has(node)) origText.set(node, node.nodeValue);
+    var original = origText.get(node);
+    var next = currentLang === 'uz' ? translate(original) : original;
+    if (node.nodeValue !== next) node.nodeValue = next;
+  }
+  function translateAttrs(el){
+    if (!el || el.nodeType !== 1) return;
+    var cache = origAttr.get(el);
+    if (!cache) { cache = {}; origAttr.set(el, cache); }
+    ATTRS.forEach(function(attr){
+      if (!el.hasAttribute(attr)) return;
+      if (cache[attr] === undefined) cache[attr] = el.getAttribute(attr);
+      var next = currentLang === 'uz' ? translate(cache[attr]) : cache[attr];
+      if (el.getAttribute(attr) !== next) el.setAttribute(attr, next);
+    });
+  }
+  function translateSubtree(root){
+    if (!root) return;
+    if (root.nodeType === 3) { translateTextNode(root); return; }
+    if (root.nodeType !== 1) return;
+    if (root.hasAttribute && root.hasAttribute(SKIP_ATTR)) return;
+    translateAttrs(root);
+    if (root.querySelectorAll) {
+      var sel = '[' + ATTRS.join('],[') + ']';
+      root.querySelectorAll(sel).forEach(function(el){
+        if (!el.closest('[' + SKIP_ATTR + ']')) translateAttrs(el);
+      });
+    }
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
+      acceptNode: function(node){
+        if (node.nodeType === 1) return node.hasAttribute(SKIP_ATTR) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while ((node = walker.nextNode())) { if (node.nodeType === 3) translateTextNode(node); }
+  }
+
+  var translating = false;
+  var observer = null;
+  function setupObserver(){
+    if (observer) return;
+    observer = new MutationObserver(function(mutations){
+      if (translating) return;
+      if (currentLang !== 'uz') return;
+      translating = true;
+      try {
+        mutations.forEach(function(m){
+          if (m.type === 'childList') {
+            m.addedNodes.forEach(function(n){
+              if (n.nodeType === 1) translateSubtree(n);
+              else if (n.nodeType === 3) translateTextNode(n);
+            });
+          } else if (m.type === 'characterData') {
+            translateTextNode(m.target);
+          }
+        });
+      } finally { translating = false; }
+    });
+    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+  }
+
+  function updateToggleLabels(){
+    document.querySelectorAll('.lang-toggle-btn').forEach(function(btn){
+      btn.textContent = currentLang === 'uz' ? 'RU' : 'UZ';
+    });
+  }
+
+  window.toggleSiteLang = function(){
+    currentLang = currentLang === 'uz' ? 'ru' : 'uz';
+    translating = true;
+    try { translateSubtree(document.body); } finally { translating = false; }
+    document.documentElement.lang = currentLang === 'uz' ? 'uz' : 'ru';
+    updateToggleLabels();
+    try { localStorage.setItem('inspekt_site_lang', currentLang); } catch(e){}
+  };
+
+  setupObserver();
+
+  try {
+    if (localStorage.getItem('inspekt_site_lang') === 'uz') { window.toggleSiteLang(); }
+  } catch(e){}
 })();
 </script>
 </body>
